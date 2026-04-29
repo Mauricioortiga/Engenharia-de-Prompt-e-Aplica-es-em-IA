@@ -24,6 +24,8 @@ depuração instantânea.
 Modelos de IA são eficazes em identificar padrões de códigos repetitivos e com pouca funcionalidade, conseguindo sugerir implementações que seguem boas práticas de engenharia de software, proporcionando ao 
 programador maior organização, reutilização e facilidade de manutenção.
 
+---
+
 Fontes utilizadas:
 
 Ambientes de Nuvem e IA: https://replit.com/usecases/ai-coding-assistant
