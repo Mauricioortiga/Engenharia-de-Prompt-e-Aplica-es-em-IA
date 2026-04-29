@@ -1,5 +1,7 @@
 <img width="726" height="631" alt="Atividade Github" src="https://github.com/user-attachments/assets/a6a9c49f-c1e1-4366-996a-9d84b032f529" />
 
+---
+
 A forma que o programador utiliza a IA para desenvolver seus códigos representa uma evolução do modelo tradicional. Ou seja, o programador toma as decisões, entende o problema e pensa na estratégia, 
 enquanto a IA apoia na execução, revisa códigos e sugere caminhos. É uma colaboração constante, com divisão clara de papéis e validação contínua do que está sendo feito.
 
