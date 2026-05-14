@@ -1,4 +1,4 @@
-<img width="861" height="41" alt="Captura de tela 2026-05-14 021137" src="https://github.com/user-attachments/assets/58203f45-765c-4cdb-ba55-14e0df977d47" />
+**Breve explicação do Protótipo:**
 
 Dashboard para otimizar a gestão de tarefas do dia a dia.
 
