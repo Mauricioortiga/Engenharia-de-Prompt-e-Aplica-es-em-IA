@@ -41,6 +41,8 @@ O gráfico de desempenho semanal funciona como um espelho de produtividade. O us
 
 A tela de criação de novas tarefas usa uma linguagem simples e campos bem definidos (Título, Descrição, Prioridade, Status). Qualquer usuário, mesmo sem afinidade com tecnologia, consegue operar a ferramenta imediatamente, sem precisar ler manuais ou assistir a tutoriais complexos.
 
+---
+
 ⚠️ **Limitações Encontradas:**
 
 1. Bubble é limitado a 2 prompts
@@ -49,13 +51,16 @@ A tela de criação de novas tarefas usa uma linguagem simples e campos bem defi
 
 3. Site responsivo não tem notificação de alarme para realizar as tarefas nos horários estabelecidos
 
+---
+
 📚 **Reflexão Crítica**
 
 O Bubble não disponibiliza o download do prompt criado, como alternativa, precisamos tirar um Print Screen da tela para mostrar o projeto criado.
+
+---
 
 👥 **Colaboração**
 
 Maurício ficou encarregado de decidir qual IA seria utilizada para criar o dashboard e as soluções adicionais para acrescentar ao projeto. 
 
 Ezequiel ficou encarregado de decidir quais seriam as condições avaliadas e como funcionaria a interação do usuário com o dashboard.
-
