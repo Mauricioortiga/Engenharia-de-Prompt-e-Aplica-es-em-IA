@@ -61,6 +61,10 @@ O Bubble não disponibiliza o download do prompt criado, como alternativa, preci
 
 👥 **Colaboração**
 
-Maurício ficou encarregado de decidir qual IA seria utilizada para criar o dashboard e as soluções adicionais para acrescentar ao projeto. 
+Maurício ficou encarregado de decidir a plataforma que seria utilizada (Bubble), definição de soluções adicionais e arquitetura técnica do protótipo.
 
-Ezequiel ficou encarregado de decidir quais seriam as condições avaliadas e como funcionaria a interação do usuário com o dashboard.
+Ezequiel ficou encarregado de decidir as condições avaliadas, lógica de funcionamento e design da interação do usuário com o Dashboard.
+
+🚫 **Próximos Passos o próximo protótipo**
+
+Implementar notificações de Push/alarmes para os horários estipulados.
