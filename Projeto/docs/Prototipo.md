@@ -8,6 +8,7 @@
 
 Código Fonte:
 
+[Novo(a) Documento de Texto.html](https://github.com/user-attachments/files/28077055/Novo.a.Documento.de.Texto.html)
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
