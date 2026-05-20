@@ -1,3 +1,4 @@
+**Projeto feito em Colaboração com Ezequiel Ferreira Lindoso**
 📌 **Desafio proposto pelo grupo:**
 
 Dashboard para otimizar a gestão de tarefas do dia a dia.
