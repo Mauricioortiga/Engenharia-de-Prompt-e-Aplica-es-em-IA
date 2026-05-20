@@ -8,8 +8,7 @@
 
 Código Fonte:
 
-[projeto.html.html](https://github.com/user-attachments/files/28077073/projeto.html.html)
-
+[projeto.html](https://github.com/user-attachments/files/28077085/projeto.html)
 <!-- 
 Prompt: Faça um app de gerenciamento de tarefas (estilo Trello simplificado), com:
 Frontend Interface responsiva com HTML, CSS e JavaScript e com Dashboard com estatísticas visuais das tarefas
