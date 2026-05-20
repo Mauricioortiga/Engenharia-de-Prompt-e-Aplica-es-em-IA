@@ -1,7 +1,295 @@
+[Projeto Dashboard de Tarefas Diárias.pdf](https://github.com/user-attachments/files/28076600/Projeto.Dashboard.de.Tarefas.Diarias.pdf)
+
 <img width="684" height="395" alt="image" src="https://github.com/user-attachments/assets/8015c4dc-551e-4d54-9d5a-8c14d5ef9047" />
 
 ---
 
 <img width="337" height="453" alt="image" src="https://github.com/user-attachments/assets/c8ea2e0f-f27c-430c-a655-f73ab1e7a3b4" />
 
-[Projeto Dashboard de Tarefas Diárias.pdf](https://github.com/user-attachments/files/28076600/Projeto.Dashboard.de.Tarefas.Diarias.pdf)
+Código Fonte:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas com Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --success: #48bb78;
+            --warning: #ed8936;
+            --danger: #f56565;
+            --light: #f7fafc;
+            --dark: #2d3748;
+            --border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            background: var(--light);
+            color: var(--dark);
+        }
+
+        .nav-btn:hover,
+        .nav-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+        }
+
+        .card-title {
+            font-size: 0.9rem;
+            color: #718096;
+            text-transform: uppercase;
+        }
+
+        .card-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            height: 300px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>📊 Gerenciador de Tarefas</h1>
+            <p>Organize suas atividades e acompanhe sua produtividade</p>
+        </header>
+
+        <nav>
+            <button class="nav-btn active">📈 Dashboard</button>
+            <button class="nav-btn">📋 Minhas Tarefas</button>
+        </nav>
+
+        <section id="dashboard" class="section active">
+
+            <div class="dashboard">
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">📝</span>
+                    </div>
+
+                    <div class="card-title">Total de Tarefas</div>
+                    <div class="card-value">0</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">✅</span>
+                    </div>
+
+                    <div class="card-title">Concluídas</div>
+                    <div class="card-value">0</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">⏳</span>
+                    </div>
+
+                    <div class="card-title">Pendentes</div>
+                    <div class="card-value">0</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-icon">🔥</span>
+                    </div>
+
+                    <div class="card-title">Taxa de Conclusão</div>
+                    <div class="card-value">0%</div>
+                </div>
+
+            </div>
+
+            <div class="charts-grid">
+
+                <div class="chart-container">
+                    <canvas id="priorityChart"></canvas>
+                </div>
+
+                <div class="chart-container">
+                    <canvas id="statusChart"></canvas>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        Feito por Maurício Cunha Ortiga Ferreira e Ezequiel Ferreira Lindoso
+    </footer>
+
+    <script>
+        const priorityCtx = document.getElementById('priorityChart');
+
+        new Chart(priorityCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Alta', 'Média', 'Baixa'],
+                datasets: [{
+                    data: [4, 7, 2],
+                    backgroundColor: [
+                        '#f56565',
+                        '#ed8936',
+                        '#48bb78'
+                    ]
+                }]
+            }
+        });
+
+        const statusCtx = document.getElementById('statusChart');
+
+        new Chart(statusCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Pendentes', 'Concluídas'],
+                datasets: [{
+                    data: [5, 8],
+                    backgroundColor: [
+                        '#667eea',
+                        '#48bb78'
+                    ]
+                }]
+            }
+        });
+    </script>
+
+</body>
+</html>
