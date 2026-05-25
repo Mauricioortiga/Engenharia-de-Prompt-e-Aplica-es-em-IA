@@ -1,3 +1,5 @@
+**Protótipo:** A aplicação do dashboard permite criar, editar, deletar, concluir tarefas, estipular horários ao longo do dia, marcar os dias concluídos e acompanhar o percentual de progresso até a data final de conclusão.
+
 
 <img width="1348" height="595" alt="Captura de tela 2026-05-20 205524" src="https://github.com/user-attachments/assets/3a574cf7-f1b2-4ffd-b798-b620bb6dc6a2" />
 
