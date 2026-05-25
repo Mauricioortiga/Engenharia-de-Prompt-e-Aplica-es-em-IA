@@ -6,10 +6,6 @@ RGM: 48187828
 
 Dashboard para otimizar a gestão de tarefas do dia a dia.
 
-🖥️ Breve explicação do Protótipo:
-
-A aplicação do dashboard permite criar, editar, deletar, concluir tarefas, estipular horários ao longo do dia, marcar os dias concluídos e acompanhar o percentual de progresso até a data final de conclusão.
-
 ⚙️ Plataforma utilizada:
 
 Nome: Bubble
