@@ -1,4 +1,6 @@
-Nesta unidade 01, temos o foco em aprender sobre o funcionamento da IA, criando promps eficientes para a usabilidade do usuário.
+**Nesta unidade 01, iremos desenvolver:**
+
+O aprendizado de como a IA executa suas requisições, para modelar prompts eficientes que melhor auxiliem o usuário.
 
 **Objetivo:**
 
