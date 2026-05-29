@@ -91,7 +91,67 @@ Córdova(2025) argumenta:
 
 🔨 **Construindo uma relação de confiança com seu parceiro de IA:**
 
+Para estabelecermos uma colaboração produtiva com assistentes de IA, precisamos ter uma confiança calibrada. Identificar quando confiar nas sugestões, quando se torna necessário a verificação da informação e quando ignorá-las por completo.
 
+Uma estratégia eficaz é utilizar a IA para tarefas de baixo risco e alto tédio.
+
+A estratégia inclui:
+
+1. Gerar estrutura inicial de pastas.
+
+2. Arquivos de configuração.
+
+3. Dependências básicas.
+
+Tarefas padronizadas que sugerem resultados fáceis, contribuindo para uma forma segura de colaboração com o programador.
+
+🎈Eysenck(2023) explica:
+
+*Você só passa a confiar na IA com o tempo, usando e testando no dia a dia. É esse contato constante que faz você entender, aos poucos, o que ela faz muito bem e onde ela costuma errar.*
+
+À medida que sua confiança cresce, você pode delegar tarefas mais complexas, mas sempre mantendo vigilância crítica.
+
+Desenvolver essa confiança calibrada também envolve aprender a se comunicar de maneira eficaz com a IA. Assim como um bom navegador em pair programming faz perguntas específicas e oferece contexto relevante, você deve formular seus pedidos de forma que a IA possa oferecer as melhores sugestões.
+
+🎈Murta(2023) sugere:
+
+*A qualidade do código gerado é diretamente proporcional à da comunicação estabelecida com o modelo.*
+
+**Considere as melhores práticas para interagir com assistentes de IA:**
+
+**Seja específico sobre o contexto:** 
+
+Inclua comentários que descrevem o propósito, as entradas esperadas, as saídas desejadas e restrições importantes.
+
+Com este contexto, a IA gera implementações muitos mais precisas.
+
+**Use a IA para explorar alternativas:**
+
+Quando não tiver certeza sobre a melhor abordagem do problema, peça a IA para gerar múltiplas soluções e explicar o contexto de cada uma.
+
+**Combine geração com validação:**
+
+Após a IA gerar o código, peça a ela para revisar e identificar possíveis problemas.
+
+Isso cria uma camada adicional de verificação antes mesmo de você executar o código.
+
+**Aprenda com as sugestões:**
+
+Quando a IA propõe uma solução que você não conhece, não aceite. Pesquise para entender o motivo da abordagem.
+
+Isso faz com que a IA deixe de ser apenas uma ferramenta de produtividade e se torne um instrumento de aprendizado contínuo.
+
+---
+
+🔨 **A IA Não Substitui a Compreensão Fundamental da Programação:**
+
+Confiar cegamente nas sugestões da IA é uma armadilha perigosa.
+
+Carraro(2023) enfatiza:
+
+🎈*Programadores que dependem excessivamente da IA sem desenvolver fundamentos sólidos se tornam frágeis, incapazes de resolver problemas quando a ferramenta falha ou quando enfrentam situações que a IA não foi treinada para lidar.*
+
+A IA deve amplificar suas habilidades, não subtituir o trabalho de desenvolvê-las.
 
 
 
