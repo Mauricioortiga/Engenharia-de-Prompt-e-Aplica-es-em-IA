@@ -1,4 +1,5 @@
-Na unidade 03, iremos aprender a combinar velocidade com segurança, funcionalidade com design e ambição com viabilidade.
+Na unidade 03, iremos aprender a construir e escalar aplicações web inteligentes com rapidez e segurança, combinando IA com ferramentas low-code/no-code (como Bubble, Make, Pipedream e vibecode). 
+Focaremos em lógica, na experiência do usuário e na solução de problemas, desenvolvendo o discernimento crítico necessário para se posicionar na vanguarda do mercado.
 
 **Objetivos:**
 
