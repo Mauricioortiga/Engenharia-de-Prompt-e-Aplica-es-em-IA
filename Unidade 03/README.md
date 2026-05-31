@@ -1,6 +1,6 @@
 **Nesta unidade 03, iremos desenvolver:** 
 
-Construir e escalar aplicações web inteligentes com rapidez e segurança, combinando IA com ferramentas low-code/no-code (como Bubble, Make, Pipedream e vibecode). 
+A construção e a escalada de aplicações web inteligentes com rapidez e segurança, combinando IA com ferramentas low-code/no-code (como Bubble, Make, Pipedream e vibecode). 
 Focaremos em lógica, na experiência do usuário e na solução de problemas, desenvolvendo o discernimento crítico necessário para se posicionar na vanguarda do mercado.
 
 **Objetivos:**
