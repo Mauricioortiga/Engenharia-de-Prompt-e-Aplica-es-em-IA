@@ -1,3 +1,5 @@
+🔨 **Resumo de perguntas: Unidade 03**
+
 ⚡ **As plataformas low-code utilizam interfaces visuais e componentes pré-configurados que minimizam a necessidade de codificação manual profunda. Essa abordagem democratiza o desenvolvimento, 
 permitindo que desenvolvedores com diferentes níveis de senioridade (ou até mesmo usuários de negócio, os chamados citizen developers) criem soluções funcionais. 
 Consequentemente, há uma redução na dependência de especialistas altamente qualificados para tarefas repetitivas, o que acelera significativamente o ciclo de vida de desenvolvimento 
