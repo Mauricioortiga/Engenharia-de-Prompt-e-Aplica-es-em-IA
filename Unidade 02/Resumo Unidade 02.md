@@ -1,3 +1,5 @@
+🔨 Resumo de perguntas: Unidade 03
+
 **O Novo Papel do Desenvolvedor:**
 
 A programação assistida por IA não substitui o programador, mas amplifica suas capacidades. 
