@@ -15,7 +15,7 @@ manter o contexto e aprender com as interações, evoluindo sua compreensão ao 
 
 ---
 
-**Transparência, Confiança e Sociedade**
+**Transparência, Confiança e Sociedade:**
 
 **Transparência Fundamental:** Abrir o "como funciona" é indispensável para gerar confiança, principalmente em decisões de alto impacto social (como aprovação de crédito).
 
